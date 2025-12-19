@@ -13,7 +13,7 @@ The analysis consists of four main steps:
 1. LCC-based layer selection  
 2. Construction of a disease-focused multilayer network for Infomap  
 3. Identification of disease-gene-enriched communities  
-4. Functional enrichment analysis of disease-enriched modules  
+4. Functional enrichment analysis of disease-gene-enriched communities 
 
 ## Dependencies
 ### Python
@@ -72,13 +72,13 @@ disease-informative layers identified in step 1.
 
 ### Input
 - Network graph files  
-- List of disease-informative layers  
+- `.csv` file containing selected layers and corresponding z-scores  
 
 ### Method
 - All nodes are assigned unique IDs  
 - Intra-layer edges are included with weight *w = 1*  
 - Inter-layer edges connect node replicas across layers and are weighted
-  using layer-specific z-scores derived from the LCC analysis  
+  using layer-specific z-scores derived from the LCC analysis 
 
 Optional index mapping files are generated for reproducibility:
 - Layer index file  
@@ -120,7 +120,8 @@ chance.
   - Number of genes  
   - Number of disease genes  
   - p-values  
-  - adjusted p-values  
+  - adjusted p-values
+  - enrichment  
 - Additionally, a merged dataframe containing node ID, gene name, and module
 assignment is generated.
 
@@ -140,7 +141,7 @@ disease-enriched communities.
 ### Method
 Gene sets corresponding to disease-enriched modules are extracted and
 submitted to overrepresentation analysis (ORA) using **gseapy**.  
-Significantly enriched functional terms are identified and ranked per module.
+Significantly enriched functional terms are identified.
 
 ### Output
 - Bar plot showing the five most significantly enriched functional terms
