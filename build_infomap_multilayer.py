@@ -1,16 +1,14 @@
 # Part 2 of pileline
 # generate input file for multilayer community detection for infomap
 # How to run it: you need to give directory of the network files, result file of LCC, Output file 
-# python build_infomap_multilayer.py \
-#  --network-dir /Users/paulinestaiber/Documents/Network/Pauline_Praktikum/Data/raw/multiplex_InfoWalkR \
-#  --lcc-csv /Users/paulinestaiber/Documents/Network/Pauline_Praktikum/lcc_results_congenital_myasthenic_syndromes.csv \
-#  --output-net /Users/paulinestaiber/Documents/Network/Pauline_Praktikum/multiplex_clustering_explicit.net \
-#  --save-intermediate #if you want to save intermediate files
+# python3 build_infomap_multilayer.py \  --network-dir /Users/paulinestaiber/Documents/Network/Multiplex-Network-Community-detection/Data/raw/multiplex_InfoWalkR \
+#  --lcc-csv /Users/paulinestaiber/Documents/Network/Multiplex-Network-Community-detection/results/lcc_sig_layer.csv \
+#  --output-net /Users/paulinestaiber/Documents/Network/Multiplex-Network-Community-detection/results/multiplex_clustering.net \
+#  --save-intermediate
 
 
-import argparse
+import argparse # for reading command-line arguments
 from pathlib import Path
-
 import pandas as pd
 
 #Function that loads all layers of a multilayer network stored as .tsv files in a directory
@@ -121,7 +119,7 @@ def build_layer_nodes(intra_df):
         layer_nodes[layer_id] = nodes_in_layer
     return layer_nodes
 
-
+# Function that attaches layer IDs to LCC results
 def attach_layer_ids_to_lcc(layer_names, lcc_df):
     """
     Map LCC network_name -> layer_id using layer_names dict,
@@ -132,7 +130,7 @@ def attach_layer_ids_to_lcc(layer_names, lcc_df):
     lcc_df["layer_id"] = lcc_df["network_name"].map(layer_name_to_id)
     return lcc_df
 
-
+# Function that builds a dataframe with layer IDs and z-scores
 def build_all_layers_df(layer_names, lcc_df):
     """
     Build a DataFrame with layer_id and z_score for all kept layers.
@@ -145,7 +143,7 @@ def build_all_layers_df(layer_names, lcc_df):
     )
     return all_layers_df
 
-
+# Function that builds inter-layer edges
 def build_inter_edges(layer_nodes, all_layers_df):
     """
     For each ordered pair of layers (L1, L2, L1 != L2), for each shared node:

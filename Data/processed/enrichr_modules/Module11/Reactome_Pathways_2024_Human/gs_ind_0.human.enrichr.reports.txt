@@ -1,0 +1,61 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	Acetylcholine Binding and Downstream Events	3/10	1.123520e-02	8.426398e-02	1.006667e+01	4.518629e+01	CHRNE;CHRNA1;CHRND
+gs_ind_0	Acetylcholine Neurotransmitter Release Cycle	3/3	1.166880e-04	1.750320e-03	1.556667e+02	1.409718e+03	SLC18A3;SLC5A7;CHAT
+gs_ind_0	Asparagine N-linked Glycosylation	1/6	2.805107e-01	3.825146e-01	4.985455e+00	6.337228e+00	GFPT1
+gs_ind_0	Axon Guidance	1/8	3.564986e-01	4.277983e-01	3.624000e+00	3.737884e+00	SCN4A
+gs_ind_0	Bacterial Infection Pathways	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	SYT2
+gs_ind_0	Biosynthesis of the N-glycan Precursor (Dolichol LLO) and Transfer to a Nascent Protein	1/5	2.394872e-01	3.341681e-01	6.120000e+00	8.747043e+00	GFPT1
+gs_ind_0	Cardiac Conduction	1/10	4.250174e-01	4.904046e-01	2.835789e+00	2.426373e+00	SCN4A
+gs_ind_0	Cargo Recognition for Clathrin-Mediated Endocytosis	2/2	2.588352e-03	3.106023e-02	1.015217e+02	6.047380e+02	SLC18A3;SYT2
+gs_ind_0	Cellular Responses to Stimuli	1/11	4.566901e-01	5.074335e-01	2.554286e+00	2.001922e+00	GFPT1
+gs_ind_0	Cellular Responses to Stress	1/9	3.916478e-01	4.607621e-01	3.183529e+00	2.984216e+00	GFPT1
+gs_ind_0	Clathrin-mediated Endocytosis	2/4	1.461102e-02	9.740678e-02	2.013043e+01	8.507080e+01	SLC18A3;SYT2
+gs_ind_0	Collagen Biosynthesis and Modifying Enzymes	1/3	1.508882e-01	2.514804e-01	1.111200e+01	2.101519e+01	COL13A1
+gs_ind_0	Collagen Chain Trimerization	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	COL13A1
+gs_ind_0	Collagen Degradation	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	COL13A1
+gs_ind_0	Collagen Formation	1/3	1.508882e-01	2.514804e-01	1.111200e+01	2.101519e+01	COL13A1
+gs_ind_0	Degradation of the Extracellular Matrix	1/4	1.963139e-01	2.944709e-01	7.902857e+00	1.286617e+01	COL13A1
+gs_ind_0	Developmental Biology	1/16	5.922664e-01	6.023048e-01	1.691613e+00	8.860648e-01	SCN4A
+gs_ind_0	Diseases Associated With Glycosylation Precursor Biosynthesis	1/4	1.963139e-01	2.944709e-01	7.902857e+00	1.286617e+01	GFPT1
+gs_ind_0	Diseases of Glycosylation	1/4	1.963139e-01	2.944709e-01	7.902857e+00	1.286617e+01	GFPT1
+gs_ind_0	Diseases of Metabolism	1/5	2.394872e-01	3.341681e-01	6.120000e+00	8.747043e+00	GFPT1
+gs_ind_0	Disorders of Transmembrane Transporters	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	SLC5A7
+gs_ind_0	Extracellular Matrix Organization	1/8	3.564986e-01	4.277983e-01	3.624000e+00	3.737884e+00	COL13A1
+gs_ind_0	Glycerophospholipid Biosynthesis	1/3	1.508882e-01	2.514804e-01	1.111200e+01	2.101519e+01	CHAT
+gs_ind_0	Highly Calcium Permeable Nicotinic Acetylcholine Receptors	1/8	3.564986e-01	4.277983e-01	3.624000e+00	3.737884e+00	CHRNA1
+gs_ind_0	Highly Calcium Permeable Postsynaptic Nicotinic Acetylcholine Receptors	1/8	3.564986e-01	4.277983e-01	3.624000e+00	3.737884e+00	CHRNA1
+gs_ind_0	Highly Sodium Permeable Postsynaptic Acetylcholine Nicotinic Receptors	2/5	2.362108e-02	1.328410e-01	1.431677e+01	5.362512e+01	CHRNE;CHRND
+gs_ind_0	IRE1alpha Activates Chaperones	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	GFPT1
+gs_ind_0	Infectious Disease	1/7	3.194830e-01	4.259774e-01	4.200000e+00	4.792415e+00	SYT2
+gs_ind_0	Integrin Cell Surface Interactions	1/3	1.508882e-01	2.514804e-01	1.111200e+01	2.101519e+01	COL13A1
+gs_ind_0	Interaction Between L1 and Ankyrins	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	SCN4A
+gs_ind_0	L1CAM Interactions	1/4	1.963139e-01	2.944709e-01	7.902857e+00	1.286617e+01	SCN4A
+gs_ind_0	Membrane Trafficking	2/8	6.037404e-02	1.574975e-01	7.608696e+00	2.135910e+01	SLC18A3;SYT2
+gs_ind_0	Metabolism of Lipids	1/13	5.152597e-01	5.520640e-01	2.126400e+00	1.409982e+00	CHAT
+gs_ind_0	Muscle Contraction	2/35	5.768208e-01	5.967112e-01	1.301103e+00	7.158977e-01	DES;SCN4A
+gs_ind_0	Nervous System Development	1/13	5.152597e-01	5.520640e-01	2.126400e+00	1.409982e+00	SCN4A
+gs_ind_0	Neurexins and Neuroligins	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SYT2
+gs_ind_0	Neuronal System	7/17	2.683602e-06	1.610161e-04	2.456044e+01	3.150699e+02	SYT2;CHRND;SLC5A7;CHAT;CHRNE;CHRNA1;SLC18A3
+gs_ind_0	Neurotoxicity of Clostridium Toxins	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SYT2
+gs_ind_0	Neurotransmitter Receptors and Postsynaptic Signal Transmission	3/13	2.435418e-02	1.328410e-01	7.095238e+00	2.635918e+01	CHRNE;CHRNA1;CHRND
+gs_ind_0	Neurotransmitter Release Cycle	3/3	1.166880e-04	1.750320e-03	1.556667e+02	1.409718e+03	SLC18A3;SLC5A7;CHAT
+gs_ind_0	Phase 0 - Rapid Depolarisation	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SCN4A
+gs_ind_0	Phospholipid Metabolism	1/8	3.564986e-01	4.277983e-01	3.624000e+00	3.737884e+00	CHAT
+gs_ind_0	Post-translational Protein Modification	1/14	5.423053e-01	5.708477e-01	1.960000e+00	1.199375e+00	GFPT1
+gs_ind_0	Postsynaptic Nicotinic Acetylcholine Receptors	3/10	1.123520e-02	8.426398e-02	1.006667e+01	4.518629e+01	CHRNE;CHRNA1;CHRND
+gs_ind_0	Presynaptic Nicotinic Acetylcholine Receptors	3/10	1.123520e-02	8.426398e-02	1.006667e+01	4.518629e+01	CHRNE;CHRNA1;CHRND
+gs_ind_0	Protein-protein Interactions at Synapses	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SYT2
+gs_ind_0	SLC Transporter Disorders	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	SLC5A7
+gs_ind_0	SLC-mediated Transmembrane Transport	1/3	1.508882e-01	2.514804e-01	1.111200e+01	2.101519e+01	SLC5A7
+gs_ind_0	Striated Muscle Contraction	1/22	7.135540e-01	7.135540e-01	1.186047e+00	4.002873e-01	DES
+gs_ind_0	Synthesis of PC	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	CHAT
+gs_ind_0	Synthesis of Substrates in N-glycan Biosythesis	1/5	2.394872e-01	3.341681e-01	6.120000e+00	8.747043e+00	GFPT1
+gs_ind_0	Synthesis of UDP-N-acetyl-glucosamine	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	GFPT1
+gs_ind_0	Toxicity of Botulinum Toxin Type B (botB)	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SYT2
+gs_ind_0	Transmission Across Chemical Synapses	6/16	3.672082e-05	1.101624e-03	1.844762e+01	1.883902e+02	CHRND;SLC5A7;CHAT;CHRNE;CHRNA1;SLC18A3
+gs_ind_0	Transport of Bile Salts and Organic Acids, Metal Ions and Amine Compounds	1/2	1.031027e-01	1.995536e-01	1.860000e+01	4.225975e+01	SLC5A7
+gs_ind_0	Transport of Small Molecules	1/11	4.566901e-01	5.074335e-01	2.554286e+00	2.001922e+00	SLC5A7
+gs_ind_0	Unfolded Protein Response (UPR)	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	GFPT1
+gs_ind_0	Uptake and Actions of Bacterial Toxins	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	SYT2
+gs_ind_0	Vesicle-mediated Transport	2/8	6.037404e-02	1.574975e-01	7.608696e+00	2.135910e+01	SLC18A3;SYT2
+gs_ind_0	XBP1(S) Activates Chaperone Genes	1/1	5.284553e-02	1.509872e-01	5.604000e+01	1.647790e+02	GFPT1
