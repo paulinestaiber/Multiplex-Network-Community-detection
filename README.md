@@ -1,4 +1,4 @@
-# Multilayer Community Detection with Infomap for Disease Gene Analysis
+# Disease-Focused Community Detection in a Multiplex Network 
 
 This repository implements a reproducible workflow for identifying and
 functionally characterizing disease-enriched gene modules in multiplex biological networks using Infomap community detection.
